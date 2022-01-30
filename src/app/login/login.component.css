@@ -71,3 +71,158 @@
     font-size: 15px;
     font-weight: 500;
 }
+
+.meta{
+    height: 50px;
+    margin: 0px 0px 0px 10px;
+}
+
+.metamask{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 15px;
+}
+
+.coin{
+    height: 40px;
+    margin: 0px 0px 0px 15px;
+}
+
+.coinbase{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 20px;
+}
+.walletC{
+    height: 48px;
+    margin: 0px 0px 0px 10px;
+}
+
+.walletconnect{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 17px;
+}
+
+.cubeMeta{
+    border: #d3c5c5 solid 1px;
+    height: 50px;
+    width: 450px;
+    margin: 90px 0px 0px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cubeMeta:hover{
+    box-shadow: #c1b2b2 0px 0px 6px 3px;
+}
+
+.cubeCoin{
+    border: #d3c5c5 solid 1px;
+    height: 50px;
+    width: 450px;
+    margin: 5px 0px 0px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cubeCoin:hover{
+    box-shadow: #c1b2b2 0px 0px 6px 3px;
+}
+
+.cubeWallet{
+    border: #d3c5c5 solid 1px;
+    height: 50px;
+    width: 450px;
+    margin: 5px 0px 0px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cubeWallet:hover{
+    box-shadow: #c1b2b2 0px 0px 6px 3px;
+}
+
+.cubeFortmatic{
+    border: #d3c5c5 solid 1px;
+    height: 50px;
+    width: 450px;
+    margin: 5px 0px 0px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cubeFortmatic:hover{
+    box-shadow: #c1b2b2 0px 0px 6px 3px;
+}
+
+.fort{
+    height: 35px;
+    margin: 0px 0px 0px 17px;
+}
+
+.fortmatic{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 23px;
+}
+
+.cubeTrust{
+    border: #d3c5c5 solid 1px;
+    height: 50px;
+    width: 450px;
+    margin: 5px 0px 0px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cubeTrust:hover{
+    box-shadow: #c1b2b2 0px 0px 6px 3px;
+}
+
+.trust{
+    height: 35px;
+    margin: 0px 0px 0px 17px;
+}
+
+.trustwallet{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 23px;
+}
+
+.cubeBitski{
+    border: #d3c5c5 solid 1px;
+    height: 50px;
+    width: 450px;
+    margin: 5px 0px 0px 100px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    transition: 0.3s;
+    cursor: pointer;
+}
+.cubeBitski:hover{
+    box-shadow: #c1b2b2 0px 0px 6px 3px;
+}
+
+.bit{
+    height: 35px;
+    margin: 0px 0px 0px 17px;
+}
+
+.bitski{
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0px 0px 0px 23px;
+}
