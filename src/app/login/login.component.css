@@ -250,9 +250,10 @@
 }
 
 .ContainerLogin{
-    display: flex;
+    display: block;
     justify-content: right;
     align-items: center;
+    margin: 0px 0px 0px 900px;
 }
 
 .barra{

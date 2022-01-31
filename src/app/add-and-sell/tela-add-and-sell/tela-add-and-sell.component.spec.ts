@@ -1,20 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { AddYourNftsComponent } from './add-your-nfts.component';
+import { TelaAddAndSellComponent } from './tela-add-and-sell.component';
 
-describe('AddYourNftsComponent', () => {
-  let component: AddYourNftsComponent;
-  let fixture: ComponentFixture<AddYourNftsComponent>;
+describe('TelaAddAndSellComponent', () => {
+  let component: TelaAddAndSellComponent;
+  let fixture: ComponentFixture<TelaAddAndSellComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ AddYourNftsComponent ]
+      declarations: [ TelaAddAndSellComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(AddYourNftsComponent);
+    fixture = TestBed.createComponent(TelaAddAndSellComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
