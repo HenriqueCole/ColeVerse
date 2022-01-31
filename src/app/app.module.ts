@@ -4,13 +4,11 @@ import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
-import { StoreComponent } from './store/store.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    LoginComponent,
-    StoreComponent
+    LoginComponent
   ],
   imports: [
     RouterModule.forRoot([
