@@ -1,15 +1,20 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { RouterModule, Routes } from '@angular/router';
 import { VenderNFTComponent } from './vender-nft/vender-nft.component';
-import { EditarNFTComponent } from './editar-nft/editar-nft.component';
-import { RemoveNFTComponent } from './remove-nft/remove-nft.component';
-import { EditarNFTdaVendaComponent } from './editar-nftda-venda/editar-nftda-venda.component';
-import { RemoverNFTdaVendaComponent } from './remover-nftda-venda/remover-nftda-venda.component';
+
+const routes: Routes = [
+  {
+    path: 'SellNFT',
+    component: VenderNFTComponent
+  }
+]
 
 @NgModule({
   imports: [
-    CommonModule
+    CommonModule,
+    RouterModule.forRoot(routes)
   ],
-  declarations: [VenderNFTComponent, EditarNFTComponent, RemoveNFTComponent, EditarNFTdaVendaComponent, RemoverNFTdaVendaComponent]
+  declarations: [VenderNFTComponent]
 })
 export class SellNFTModule { }
